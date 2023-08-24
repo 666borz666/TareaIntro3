@@ -23,3 +23,4 @@ if n>0:
         print("\n", "Números positivos: ", cuepos, "\n", "Promedio de números positivos: ", proPos, "\n", "Promedio general de todos los números: ", proGen)
 else:
     print("La cantidad no puede ser 0")
+    #evita un error cuando n<=0
