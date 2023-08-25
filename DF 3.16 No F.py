@@ -1,6 +1,6 @@
 #Creado por: Daniel Campos
 #Fecha de cración: 24-08-2023 6:40pm
-#última modificación: 24-08-2023
+#última modificación: 24-08-2023 6:57pm
 #Versión 3.10.6
 
 serie=0
