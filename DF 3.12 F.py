@@ -9,6 +9,8 @@ def promPos(psumPos,cuepos):
     Entradas:
         psumPos: Suma de todos lo números positivos digitados
         pcuepos: Contador de los números positivos
+    Salidas:
+        promPos: Promedio ya calculado de los números positivos digitados.
     """
     promPos=(sumPos/cuepos)
     return promPos
@@ -19,6 +21,8 @@ def promGen(psumPos,psumOtr,pn):
         psumPos: Suma de todos los números positivos digitados
         psumOtr: Suma de los números que no son positivos
         pn: Cantidad de números a operar digitados por el usuario
+    Salidas: 
+        promGen: Promedio ya calculado de todos los números digitados.
     """
     promGen=((sumPos+sumOtr)/n)
     return promGen
