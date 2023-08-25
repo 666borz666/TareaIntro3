@@ -4,13 +4,14 @@
 #Versión 3.10.6
 
 #def de funciones
-def promPos(psumPos,pcuepos,pn):
+def promPos(psumPos,cuepos):
     """Funciónn: Saca el promedio de los números positivos digitados por el usuario
     Entradas:
         psumPos: Suma de todos lo números positivos digitados
         pcuepos: Contador de los números positivos
     """
-    return promPos(str(psumPos/pcuepos))
+    promPos=(sumPos/cuepos)
+    return promPos
 
 def promGen(psumPos,psumOtr,pn):
     """Función: Saca el promedio de todos los números digitados por el usuario
@@ -19,7 +20,8 @@ def promGen(psumPos,psumOtr,pn):
         psumOtr: Suma de los números que no son positivos
         pn: Cantidad de números a operar digitados por el usuario
     """
-    return(str((psumPos+psumOtr)/pn))
+    promGen=((sumPos+sumOtr)/n)
+    return promGen
 
 #programa principal
 sumPos=sumOtr=cuepos=0
@@ -36,6 +38,6 @@ if n>0:
             sumOtr+=num
             i+=1
     else:
-        print("\n", "Números positivos: ", cuepos, "\n", "Promedio de números positivos: ", promPos, "\n", "Promedio general de todos los números: ", promGen)
+        print("\n", "Números positivos: ", cuepos, "\n", "Promedio de números positivos: ", str(promPos(sumPos,cuepos)), "\n", "Promedio general de todos los números: ", str(promGen(sumPos,sumOtr,n)))
 else:
     print("La cantidad no puede ser 0")
