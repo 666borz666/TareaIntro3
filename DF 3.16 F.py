@@ -12,7 +12,7 @@ def resSer(pserie,i):
     Salidas: 
         serie: todos los valores ya acumulados y sumados
     """
-    while i<n:
+    while i<=n:
         serie=+i**i
         i+=1
     else:
